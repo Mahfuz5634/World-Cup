@@ -74,7 +74,6 @@
     width: 75%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 1000px;
     gap: 10px;
 }
 .btn-1{
@@ -109,6 +108,28 @@
 }
 .card-1 h3{
     margin: 20px 0;
+}
+.footer{
+    background-color: #161616;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer h2{
+    color: white;
+    font-size: 35px;
+}
+.footer-div >div{
+    color: white;
 }
 
 
@@ -148,9 +169,24 @@
     .details-1 {
         width: 100%;
         background-color: white;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+       
     }
     .details-1 button{
          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    .footer{
+       width: 100%;
+       height: auto;
+    }
+    .footer-div{
+        padding: 30px;
+    }
+    .footer-div{
+        flex-direction: column;
+        gap: -5px;
+    }
+    .footer h2{
+        margin-top: 20px;
+        margin-bottom: -20px;
     }
 }
